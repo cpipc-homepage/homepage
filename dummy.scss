@@ -1,0 +1,67 @@
+@import "color";
+
+$ratio2:(1772)/(2868);
+$logo-width:500px;
+
+.top_logo {
+  
+  .top_logo_overlap {
+    width:$logo-width;
+    height:$logo-width * $ratio2;
+    margin: 0 auto;
+    position:relative;
+    img {
+      display: block;
+      margin:0 auto;
+      position:absolute;
+    }
+  }
+  
+  
+}
+
+.icon_ {
+  padding: 4px;
+ }
+
+$ratio:(3)/(4);
+$board-width:600px;
+
+.board-outer{
+  padding: 10px;
+  .board {
+    width: $board-width;
+    height: $ratio * $board-width;
+    margin: 0 auto;
+    background-color: $color6;
+  }
+}
+
+.navbar + .jumbotron {
+    margin-top: -20px; }
+  
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading {
+  margin-bottom: 20px;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
