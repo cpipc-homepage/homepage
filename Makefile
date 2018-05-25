@@ -1,6 +1,6 @@
 .PHONY: foo
 
 foo:
-	scss color.scss:style/color.css
-	scss dummy.scss:style/dummy.css
-	scss home.scss:style/home.css
+	scss sass/home.scss:css/home.css
+	scss sass/blue.scss:css/blue.css
+	scss sass/style.scss:css/style.css
