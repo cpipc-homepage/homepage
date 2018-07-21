@@ -205,6 +205,10 @@
           box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1); }
           #fh5co-header .navbar-brand {
             color: #ff6600 !important; }
+          #fh5c0-header .bavbar-info{
+              color: cornflowerblue;
+              font-size: 5px
+          }
           #fh5co-header #navbar li a {
             color: rgba(0, 0, 0, 0.5) !important;
             -webkit-transition: 0.3s;
@@ -1152,6 +1156,7 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         border-radius: 50%; }
+        
 
     #map {
       width: 100%;
